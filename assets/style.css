@@ -260,9 +260,19 @@ hr.rule { border: 0; border-top: 1px solid var(--line); margin: 0; }
 .grid-3 { grid-template-columns: 1fr 1fr 1fr; }
 .grid-wide { grid-template-columns: 1.3fr 1fr; align-items: start; }
 .grid-story { grid-template-columns: 220px 1fr; gap: 48px; }
+.grid-about { grid-template-columns: 240px 1fr; gap: 36px; align-items: center; }
 
 @media (max-width: 700px) {
-  .grid-2, .grid-3, .grid-wide, .grid-story { grid-template-columns: 1fr; }
+  .grid-2, .grid-3, .grid-wide, .grid-story, .grid-about { grid-template-columns: 1fr; }
+}
+
+.about-photo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: var(--radius);
+  box-shadow: 0 18px 40px rgba(38, 35, 31, 0.18);
+  display: block;
 }
 
 /* Quotes */
@@ -371,7 +381,11 @@ hr.rule { border: 0; border-top: 1px solid var(--line); margin: 0; }
 .products {
   display: grid;
   gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 700px) {
+  .products { grid-template-columns: 1fr; }
 }
 
 .product-card {
