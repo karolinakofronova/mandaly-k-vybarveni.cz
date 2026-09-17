@@ -10,6 +10,7 @@
   --accent: #c97a2e;
   --accent-soft: #ecd6b5;
   --line: #e1d6c0;
+  --line-accent: rgba(44, 118, 125, 0.32);
   --max: 1080px;
   --radius: 18px;
 }
@@ -248,7 +249,7 @@ hr.rule { border: 0; border-top: 1px solid var(--line); margin: 0; }
 
 .card {
   background: var(--bg-card);
-  border: 1px solid var(--line);
+  border: 1px solid var(--line-accent);
   border-radius: var(--radius);
   padding: 28px;
 }
@@ -303,7 +304,7 @@ hr.rule { border: 0; border-top: 1px solid var(--line); margin: 0; }
   text-decoration: none;
   color: inherit;
   background: var(--bg-card);
-  border: 1px solid var(--line);
+  border: 1px solid var(--line-accent);
   border-radius: var(--radius);
   padding: 32px 28px;
   transition: box-shadow 0.2s ease, transform 0.2s ease;
@@ -336,7 +337,7 @@ hr.rule { border: 0; border-top: 1px solid var(--line); margin: 0; }
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: var(--radius);
-  border: 1px solid var(--line);
+  border: 1px solid var(--line-accent);
   background: #fff;
   display: block;
 }
@@ -358,7 +359,7 @@ hr.rule { border: 0; border-top: 1px solid var(--line); margin: 0; }
 
 .film-card {
   background: var(--bg-card);
-  border: 1px solid var(--line);
+  border: 1px solid var(--line-accent);
   border-radius: 8px;
   overflow: hidden;
 }
@@ -390,7 +391,7 @@ hr.rule { border: 0; border-top: 1px solid var(--line); margin: 0; }
 
 .product-card {
   background: var(--bg-card);
-  border: 1px solid var(--line);
+  border: 1px solid var(--line-accent);
   border-radius: var(--radius);
   padding: 26px 26px 24px;
   display: flex; flex-direction: column; gap: 14px;
