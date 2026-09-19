@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Děkujeme za objednávku | Mandaly k vybarvení</title>
+<link rel="preload" href="assets/fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/worksans-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <img class="mark" src="assets/logo-mark.jpg" alt="Mandaly k vybarvení — logo" width="34" height="34">
+      <span>
+        <span class="brand-name">Mandaly k vybarvení</span>
+        <span class="brand-tagline">Ručně rýsované mandaly</span>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-label="Otevřít menu" onclick="document.querySelector('.main-nav').classList.toggle('open')">☰</button>
+    <nav class="main-nav">
+      <a href="index.html">Úvod</a>
+      <a href="o-mandalach.html">O mandalách</a>
+      <a href="dychanky.html">Mandalové dýchánky</a>
+      <a href="kalendar.html">Kalendář 2027</a>
+      <a href="index.html#kontakt">Kontakt</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" style="padding-bottom:70px;">
+  <div class="wrap" style="max-width:560px; text-align:center;">
+    <span class="eyebrow">Kalendář mandal 2027 — barevná edice</span>
+    <h1>Děkujeme za objednávku!</h1>
+    <p class="lede" style="margin-left:auto; margin-right:auto;">Platba proběhla v pořádku. Klikni na tlačítko níže a PDF s kalendářem (titulka + 12 mandal) se ti rovnou uloží do počítače.</p>
+    <div class="btn-row" style="justify-content:center;">
+      <a class="btn btn-accent" href="assets/stazeni/kalendar-mandal-2027-barevny-cdf856e25297a10d.pdf" download="Kalendář mandal 2027 - barevný.pdf">Stáhnout PDF</a>
+    </div>
+    <p style="margin-top:34px; font-size:0.9rem; color:var(--ink-soft);">Kdyby se stažení nepovedlo, napiš mi na <a href="mailto:kajakofra@gmail.com">kajakofra@gmail.com</a> a pošlu ti PDF ručně.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="year"></span> Mandaly k vybarvení — ručně rýsováno a vybarvováno.</span>
+    <a href="index.html">Úvod</a>
+    <span class="footer-legal"><a href="obchodni-podminky.html">Obchodní podmínky</a> · <a href="ochrana-udaju.html">Ochrana osobních údajů</a></span>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
