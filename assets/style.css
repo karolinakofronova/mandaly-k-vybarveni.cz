@@ -338,6 +338,31 @@ hr.rule { border: 0; border-top: 1px solid var(--line); margin: 0; }
 
 @media (max-width: 860px) { .photo-wall { column-count: 2; } }
 
+/* Legal pages (obchodní podmínky, ochrana údajů) */
+.legal p, .legal li { color: var(--ink); }
+.legal h2.clause-h { font-size: 1.25rem; margin: 2.2em 0 0.7em; display: flex; gap: 14px; }
+.legal .num { color: var(--accent); font-weight: 600; flex: none; width: 3.2rem; font-family: "Work Sans", sans-serif; font-size: 0.95rem; }
+.legal h2.clause-h .num { font-size: 1.1rem; }
+.legal h3 { font-size: 1.05rem; margin: 1.6em 0 0.5em; font-family: "Work Sans", sans-serif; font-weight: 600; }
+.legal h3.clause-sub { display: flex; gap: 14px; }
+.legal .clause { display: flex; gap: 14px; margin: 0 0 0.9em; }
+.legal .clause > div { flex: 1; min-width: 0; }
+.legal .clause.l2 { margin-left: calc(3.2rem + 14px); }
+.legal ul { margin: 0 0 1.1em calc(3.2rem + 14px); padding-left: 1.1em; }
+.legal li { margin-bottom: 0.45em; }
+.legal > p, .legal > h3 { margin-left: calc(3.2rem + 14px); }
+.table-wrap { overflow-x: auto; margin: 0 0 1.4em; }
+.legal table { border-collapse: collapse; width: 100%; font-size: 0.92rem; background: var(--bg-card); }
+.legal th, .legal td { border: 1px solid var(--line-accent); padding: 10px 12px; text-align: left; vertical-align: top; }
+.legal th { background: var(--bg-soft); font-weight: 600; }
+.footer-legal { flex: 1 0 100%; font-size: 0.85rem; }
+@media (max-width: 700px) {
+  .legal .num { width: 2.6rem; }
+  .legal .clause.l2 { margin-left: calc(2.6rem + 14px); }
+  .legal > p, .legal > h3 { margin-left: 0; }
+  .legal ul { margin-left: 1em; }
+}
+
 /* Quotes */
 .quote {
   background: var(--bg-card);
