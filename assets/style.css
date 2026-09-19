@@ -316,6 +316,8 @@ hr.rule { border: 0; border-top: 1px solid var(--line); margin: 0; }
 
 .event-facts p { margin: 0; }
 .event-facts a { font-size: 0.9rem; }
+.event-note { margin: 26px 0 0; color: var(--ink-soft); }
+.event-privacy { margin: 18px 0 0; font-size: 0.82rem; color: var(--ink-faint); }
 
 @media (max-width: 700px) {
   .event { padding: 26px 22px; }
