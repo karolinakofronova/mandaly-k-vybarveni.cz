@@ -1,0 +1,7 @@
+Fonts used on this website are hosted locally (no requests to Google servers).
+
+Fraunces  - Copyright 2020 The Fraunces Project Authors (https://github.com/undercasetype/Fraunces)
+Work Sans - Copyright 2019 The Work Sans Project Authors (https://github.com/weiweihuanghuang/Work-Sans)
+
+Both fonts are licensed under the SIL Open Font License, Version 1.1.
+The full license text is available at: https://openfontlicense.org
