@@ -409,6 +409,8 @@ hr.rule { border: 0; border-top: 1px solid var(--line); margin: 0; }
 
 .quote p { font-style: italic; color: var(--ink); margin-bottom: 0; }
 
+.quote-by { margin: 14px 0 0 !important; font-style: normal !important; font-weight: 600; font-size: 0.9rem; color: var(--primary) !important; }
+
 .quote-strip {
   display: grid;
   gap: 18px;
